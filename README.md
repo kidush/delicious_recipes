@@ -1,6 +1,6 @@
 # DeliciousRecipes
 
-DeliciousRecipes is a beginner project to teach myself about the stuff in Elixir's and
+DeliciousRecipes is a Phoenix beginner project to teach myself about the stuff in Elixir's and
 Phoenix's World.
 
 ## Notes About Phoenix Starting app:
