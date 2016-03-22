@@ -35,8 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :delicious_recipes, DeliciousRecipes.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "thiago",
+  password: "",
   database: "delicious_recipes_dev",
   hostname: "localhost",
   pool_size: 10

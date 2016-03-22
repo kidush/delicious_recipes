@@ -27,3 +27,10 @@ import_config "#{Mix.env}.exs"
 config :phoenix, :generators,
   migration: true,
   binary_id: false
+
+# Config Guardian
+config :guardian, Guardian,
+  issuer: "DeliciousRecipes",
+  ttl: {30, :days},
+  secret_key: "8VXpYvF/wNii4SfumbHoBeOEtJfS9dF4xwGjj5z/Oew4b0Y6GX3CmdW/42VLLEAR",
+  serializer: DeliciousRecipes.GuardianSerializer
