@@ -20,7 +20,8 @@ defmodule DeliciousRecipes.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", DeliciousRecipes do
-  #   pipe_through :api
-  # end
+  scope "/api", DeliciousRecipes do
+    pipe_through :api
+    resources "/recipes", RecipeController, except: [:new, :edit]
+  end
 end
